@@ -6,7 +6,6 @@ import javax.servlet.http.HttpServletRequest;
  * 〈一句话功能简述〉<br> 
  *  获取用户真实ip
  *
- * @author tukun
  * @see [相关类/方法]（可选）
  * @since [产品/模块版本] （可选）
  */
