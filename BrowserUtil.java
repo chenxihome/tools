@@ -1,6 +1,4 @@
-/*
- * Copyright (C), 2013-2014, 上海汽车集团股份有限公司
- */
+
 package com.saic.ebiz.mall.controller.util;
 
 import javax.servlet.http.HttpServletRequest;
@@ -8,7 +6,6 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 浏览器工具类
  * 
- * @author hejian
  *
  */
 public class BrowserUtil {
