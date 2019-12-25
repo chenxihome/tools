@@ -1,13 +1,4 @@
-/*
- * Copyright (C), 2014-2015, 上海汽车集团股份有限公司
- * FileName: ControllerUtil.java
- * Author:   lijialiang
- * Date:     2015年5月3日 下午23:06:40
- * Description: //模块目的、功能描述      
- * History: //修改记录
- * <author>      <time>      <version>    <desc>
- * 修改人姓名             修改时间            版本号                  描述
- */
+
 package com.saic.ebiz.mall.controller.util;
 
 import java.io.UnsupportedEncodingException;
@@ -32,7 +23,6 @@ import com.saic.ebiz.mall.constants.PageConstant;
  * controller包公用的工具类<br>
  * 〈功能详细描述〉
  * 
- * @author lijialing
  * @see [相关类/方法]（可选）
  * @since [产品/模块版本] （可选）
  */
@@ -76,7 +66,6 @@ public final class ControllerUtil {
     
     /**
      * 判断当前日期是否在某日期之后 <br>
-     * @author lijialiang
      * @param format 日期格式eg:yyyy-MM-dd HH:mm:ss
      * @param dateTime	设定日期 eg:2015-10-25 00:00:00
      * @return true 在某日期后 false 不在
@@ -118,7 +107,6 @@ public final class ControllerUtil {
     }
     /**
      * 格式化String转为Date <br>
-     * @author lijialiang
      * @param format 日期格式eg:yyyy-MM-dd HH:mm:ss
      * @param dateTime	设定日期 eg:2015-10-25 00:00:00
      * @return Date formatDate
@@ -136,7 +124,6 @@ public final class ControllerUtil {
    
     /**
      * 根据传入的cityId设定城市ID及城市名称写入cookies <br>
-     * @author lijialiang
      * @return 如无cookies则定位上海
      */
     public static void setCityCookies(HttpServletRequest request, HttpServletResponse response,Long cityId) {
@@ -197,7 +184,6 @@ public final class ControllerUtil {
 	}
     /**
      * 获取某年第某周的周一的日期 <br>
-     * @author lijialiang
      * @param int year
      * @param int weekindex
      * @return String weekFirstDay 格式eg:M月d日
