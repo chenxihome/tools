@@ -1,6 +1,4 @@
-/*
- * Copyright (C), 2013-2014, 上海汽车集团股份有限公司
- */
+
 package com.saic.ebiz.mall.controller.util;
 
 import javax.servlet.http.Cookie;
@@ -11,10 +9,6 @@ import org.apache.commons.lang3.StringUtils;
 import com.saic.ebiz.mall.constants.PageConstant;
 import com.saic.ebiz.mall.util.CookieUtil;
 
-/**
- * @author hejian
- *
- */
 public class RequestUtils {
 
 	/***
