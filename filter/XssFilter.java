@@ -1,7 +1,5 @@
 /*
- * Copyright (C), 2013-2014, 上海汽车集团股份有限公司
  * FileName: XssFilter.java
- * Author:   chenliang
  * Date:     2014年3月11日 下午7:32:58
  * Description: //模块目的、功能描述      
  * History: //修改记录
