@@ -1,7 +1,5 @@
 /*
- * Copyright (C), 2013-2014, 上海汽车集团股份有限公司
  * FileName: XssHttpServletRequestWrapper.java
- * Author:   chenliang
  * Date:     2014年3月11日 下午7:27:22
  * Description: //模块目的、功能描述      
  * History: //修改记录
@@ -22,7 +20,6 @@ import com.meidusa.fastjson.JSONObject;
  * request装饰类，防止Xss/csrf/注入钓鱼网站/SQL等的攻击.<br>
  * 由于网站允许用户密码特殊字符，所有对password、newPassword不予过滤
  * 
- * @author chenliang
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper {
     /** The Constant LOGGER. */
